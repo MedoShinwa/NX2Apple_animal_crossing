@@ -20,3 +20,18 @@ dm/games/*/cb_extent.tsv
 # Swift build products at the repository root (a stray build run)
 .build/
 sync.log
+# Game dumps, keys, firmware and built packages (never commit these)
+*.nsp
+*.xci
+*.nca
+*.ncz
+*.keys
+prod.keys
+title.keys
+firmware/
+*.ipa
+*.zip
+
+# Windows junk
+Thumbs.db
+desktop.ini
